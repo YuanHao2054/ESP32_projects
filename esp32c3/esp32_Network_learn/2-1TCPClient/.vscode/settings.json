@@ -1,0 +1,12 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.adapterTargetName": "esp32c3",
+  "idf.openOcdConfigs": [
+    "board/esp32c3-ftdi.cfg"
+  ],
+  "idf.flashType": "UART",
+  "idf.portWin": "COM8",
+  "files.associations": {
+    "functional": "cpp"
+  }
+}

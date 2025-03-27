@@ -1,0 +1,19 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/yuanhao/espressif/v5.3.2/esp-idf",
+    "idf.toolsPath": "/home/yuanhao/espressif/Tools",
+    "idf.pythonInstallPath": "/usr/bin/python",
+    "idf.customExtraVars": {
+        "IDF_TARGET": "esp32s3"
+    },
+    "idf.openOcdConfigs": [
+        "board/esp32s3-bridge.cfg"
+    ],
+
+    "clangd.arguments": [
+        "--compile-commands-dir=../build"
+    ],
+    "idf.port": "/dev/ttyUSB0",
+    "idf.flashType": "UART",
+    "clangd.inactiveRegions.useBackgroundHighlight": false,
+}
