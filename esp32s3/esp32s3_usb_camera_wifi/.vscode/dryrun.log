@@ -1,0 +1,6 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/yuanhao/espressif/ESP32_projects/esp32s3/esp32s3_usb_camera_wifi'
+make: Leaving directory '/home/yuanhao/espressif/ESP32_projects/esp32s3/esp32s3_usb_camera_wifi'
+ 
+make: *** No targets specified and no makefile found.  Stop.
+

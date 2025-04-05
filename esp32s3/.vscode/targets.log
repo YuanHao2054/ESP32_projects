@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Apr  5 21:45:32 2025
+# Make data base, printed on Sat Apr  5 20:35:01 2025
 
 # Variables
 
@@ -29,7 +29,7 @@ VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # default
 .VARIABLES := 
 # environment
-PWD = /home/yuanhao/espressif/ESP32_projects
+PWD = /home/yuanhao/espressif/ESP32_projects/esp32s3
 # automatic
 %D = $(patsubst %/,%,$(dir $%))
 # environment
@@ -49,11 +49,9 @@ LANG = C
 # makefile
 MAKEFLAGS = pqrR
 # makefile
-CURDIR := /home/yuanhao/espressif/ESP32_projects
+CURDIR := /home/yuanhao/espressif/ESP32_projects/esp32s3
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-VSCODE_L10N_BUNDLE_LOCATION = vscode-local:/c%3A/Users/20541/.vscode/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.2025040209/translations/extensions/vscode.json-language-features.i18n.json
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # automatic
 *D = $(patsubst %/,%,$(dir $*))
 # environment
@@ -85,7 +83,7 @@ HTTP_PROXY = http://127.0.0.1:7890
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/yuanhao/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/tcf.json","messagesFile":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/4437686ffebaf200fa4a6e6e67f735f3edf24ada/nls.messages.json","corruptMarkerFile":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"f6b8eec2f38d828ef496a30e14a1d13d.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/tcf.json","_cacheRoot":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn","_resolvedLanguagePackCoreLocation":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/4437686ffebaf200fa4a6e6e67f735f3edf24ada","_corruptedFile":"/home/yuanhao/.vscode-server/data/clp/f6b8eec2f38d828ef496a30e14a1d13d.zh-cn/corrupted.info"}
+VSCODE_NLS_CONFIG = {"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/home/yuanhao/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # makefile
@@ -115,7 +113,7 @@ HOSTTYPE = x86_64
 # automatic
 +F = $(notdir $+)
 # environment
-WSL_INTEROP = /run/WSL/26481_interop
+WSL_INTEROP = /run/WSL/680_interop
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -137,7 +135,7 @@ _ = /home/yuanhao/.vscode-server/bin/4437686ffebaf200fa4a6e6e67f735f3edf24ada/no
 # environment
 XDG_RUNTIME_DIR = /run/user/1000/
 # environment
-VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-d346de40-c326-4d30-a4c5-6bfc153f2baf.sock
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-a9f20b4e-2272-4a7a-8401-10c936a9d1a3.sock
 # environment
 HOME = /home/yuanhao
 # environment
@@ -159,7 +157,7 @@ https_proxy = http://127.0.0.1:7890
 # environment
 VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # variable set hash-table stats:
-# Load=74/1024=7%, Rehash=0, Collisions=2/101=2%
+# Load=73/1024=7%, Rehash=0, Collisions=1/100=1%
 
 # Pattern-specific Variable Values
 
@@ -167,9 +165,9 @@ VSCODE_ESM_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 
 # Directories
 
-# . (device 2080, inode 106833): 6 files, no impossibilities.
+# . (device 2080, inode 118532): 7 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 7 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -219,13 +217,13 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 119 B / avg = 8 B
-# current buf: size = 8162 B / used = 119 B / count = 14 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 15 / storage = 167 B / avg = 11 B
+# current buf: size = 8162 B / used = 167 B / count = 15 / avg = 11 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 18 / hit rate = 16%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=0/17=0%
-# Finished Make data base on Sat Apr  5 21:45:32 2025
+# Load=15/8192=0%, Rehash=0, Collisions=0/18=0%
+# Finished Make data base on Sat Apr  5 20:35:01 2025
 
  
 make: *** No rule to make target 'all'.  Stop.
