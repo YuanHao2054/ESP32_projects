@@ -1,0 +1,12 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+Makefile:8: /make/project.mk: No such file or directory
+
+make.exe: Entering directory `/c/Users/20541/Desktop/esp32s3_hx8369'
+ 
+make.exe: *** No rule to make target `/make/project.mk'.
+
+make.exe: Failed to remake makefile `/make/project.mk'.
+make.exe: *** No targets specified and no makefile found.  Stop.
+
+make.exe: Leaving directory `/c/Users/20541/Desktop/esp32s3_hx8369'
+ 
